@@ -1,0 +1,200 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/geist';
+@import '@fontsource-variable/geist-mono';
+@import 'katex/dist/katex.min.css';
+
+/*
+ * The site's one design system, light only: the paper palette Cobalt and Rose for the paper, the demo and the
+ * figures alike. The canvases read the same colours from src/lib/search/theme.ts.
+ *
+ * Roles: rose is ours (the pair state and its answer); cobalt the strongest alternative (the benchmark's Transformer,
+ * or the runner-up step); violet references and theory only. Everything else is ink on white, with the tint for quiet
+ * fills and the mist for hairlines.
+ * Text is ink or ink_soft (6.8:1 on white, 6.3:1 on the tint); blue_grey (3.4:1) and mist are for marks, never text,
+ * except a disabled control.
+ */
+@theme {
+	--color-paper: #ffffff;
+	--color-tint: #f2f5fb;
+	--color-ink: #1f2a44;
+	--color-ink-soft: #4c5b78;
+	--color-blue-grey: #7d8ba8;
+	--color-mist: #bac5d9;
+	--color-rose: #d6336c;
+	--color-rose-light: #f1a3bc;
+	--color-cobalt: #2557a7;
+	--color-cobalt-light: #9db8e0;
+	--color-violet: #7a5ba8;
+
+	/* the roles the ported panels read, on the palette */
+	--color-void: var(--color-paper);
+	--color-panel: var(--color-tint);
+	--color-lift: #e6ebf4;
+	--color-edge: #dde3ee;
+	--color-rule: var(--color-mist);
+	--color-ink-2: var(--color-ink-soft);
+	--color-ink-3: var(--color-ink-soft);
+
+	--font-sans: 'Geist Variable', ui-sans-serif, system-ui, sans-serif;
+	--font-mono: 'Geist Mono Variable', ui-monospace, monospace;
+	--font-serif: 'KaTeX_Main', 'Latin Modern Roman', 'Times New Roman', serif;
+	--font-math: 'KaTeX_Math', 'Times New Roman', serif;
+
+	--radius-ui: 4px;
+	--text-2xs: 11px;
+	--text-xs: 12px;
+	--text-sm: 13px;
+	--text-ui: 14px;
+	--text-lg: 16px;
+	--text-head: 28px;
+}
+
+:root {
+	color-scheme: light;
+	--bar-h: 48px;
+	/* fields and tracks: tone, never outlines */
+	--field: var(--color-tint);
+	--field-hover: #e9eef7;
+	--track: #e3e8f1;
+	--track-on: var(--color-blue-grey);
+	/* one eased motion between states, a quick one for hover */
+	--ease: cubic-bezier(0.65, 0, 0.35, 1);
+	--move: 850ms;
+	--hover: 250ms;
+	/* the maps (the paper's map figures): pale water and its shore, warm-grey woods, grey roads */
+	--map-water: #e6ecf8;
+	--map-shore: #c3cee5;
+	--map-water-ink: #7c90bc;
+	--map-wood: #eeece8;
+	--map-tree: #c9c4ba;
+	--map-ridge: #eceae5;
+	--map-road: #bac1cd;
+	--map-road-ink: #8e97a8;
+}
+
+html,
+body {
+	background: var(--color-paper);
+	color: var(--color-ink);
+	font-family: var(--font-sans);
+	font-size: var(--text-ui);
+	line-height: 1.45;
+	-webkit-font-smoothing: antialiased;
+	font-feature-settings: 'ss01', 'cv11';
+}
+
+/* Readouts: tabular figures so digits don't dance while a run goes. */
+.num {
+	font-variant-numeric: tabular-nums;
+	font-feature-settings: 'tnum';
+}
+
+/* quiet focus: a thin ink ring for the keyboard only */
+:focus-visible {
+	outline: 1px solid var(--color-blue-grey);
+	outline-offset: 2px;
+}
+input[type='range']:focus-visible {
+	outline: none;
+}
+
+input[type='checkbox'],
+input[type='range'] {
+	accent-color: var(--color-ink);
+}
+
+::selection {
+	background: var(--color-cobalt-light);
+	color: var(--color-ink);
+}
+
+.katex {
+	font-size: 1.08em;
+	color: var(--color-ink);
+}
+
+a {
+	color: inherit;
+	text-decoration-color: var(--color-mist);
+	text-underline-offset: 3px;
+	transition: text-decoration-color var(--hover) ease;
+}
+a:hover {
+	text-decoration-color: currentColor;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		transition-duration: 0.01ms !important;
+	}
+}
+
+* {
+	scrollbar-width: thin;
+	scrollbar-color: var(--color-mist) transparent;
+}
+
+/* ── shared pieces ──────────────────────────────────────────────────────── */
+@layer components {
+	/* the one strong action: ink on white, no outline */
+	.primary {
+		height: 30px;
+		padding: 0 16px;
+		border: 0;
+		border-radius: var(--radius-ui);
+		background: var(--color-ink);
+		color: var(--color-paper);
+		font: inherit;
+		font-size: var(--text-sm);
+		font-weight: 500;
+		white-space: nowrap;
+		cursor: pointer;
+		transition:
+			background var(--hover) ease,
+			color var(--hover) ease;
+	}
+	.primary:hover:not(:disabled) {
+		background: #111827;
+	}
+	.primary:disabled {
+		background: var(--color-lift);
+		color: var(--color-blue-grey);
+		cursor: default;
+	}
+	/* text buttons: tone and weight, never a box (ink_soft is the lightest text tone: 6.8:1 on white) */
+	.plain {
+		border: 0;
+		padding: 0;
+		background: none;
+		color: var(--color-ink-soft);
+		font: inherit;
+		cursor: pointer;
+		transition: color var(--hover) ease;
+	}
+	.plain:hover:not(:disabled) {
+		color: var(--color-ink);
+	}
+	.plain[aria-pressed='true'] {
+		color: var(--color-ink);
+		font-weight: 500;
+	}
+	.plain:disabled {
+		cursor: default;
+		color: var(--color-mist);
+	}
+	.hint {
+		font-size: var(--text-xs);
+		color: var(--color-ink-soft);
+	}
+}
+
+/* an icon beside its label, in buttons and links (lib/ui/icons.ts is the one vocabulary) */
+.ic {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4em;
+	vertical-align: middle;
+}

@@ -1,0 +1,59 @@
+{
+	"note": "The repeated layer's reach after K = 1..10 iterations: the largest lookahead L such that the read-out after K answers every lookahead from 1 to L on at least 99% of the benchmark's test questions (1,000 per lookahead at 49 towns, 500 at 125), scored by the training run itself on this checkpoint. The most a pair can know after K iterations is a route of 2^K roads.",
+	"K": [
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		8,
+		9,
+		10
+	],
+	"reach": {
+		"49": [
+			1,
+			1,
+			2,
+			15,
+			24,
+			24,
+			24,
+			24,
+			24,
+			24
+		],
+		"125": [
+			1,
+			1,
+			1,
+			1,
+			2,
+			62,
+			62,
+			62,
+			62,
+			62
+		]
+	},
+	"longest": {
+		"49": 24,
+		"125": 62
+	},
+	"scored": {
+		"49": {
+			"K": 8,
+			"mean": 1.0,
+			"worst": 1.0,
+			"random": 1.0
+		},
+		"125": {
+			"K": 9,
+			"mean": 1.0,
+			"worst": 1.0,
+			"random": 1.0
+		}
+	}
+}

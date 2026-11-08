@@ -1,0 +1,50 @@
+node_modules
+
+# Output
+.output
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Model files never go in git except the small exported JSON the demo loads (static/model/)
+*.safetensors
+*.onnx
+*.pt
+*.npz
+
+# Agent tooling
+/.claude/settings.local.json
+
+# The paper's figures are copied from paper/figures/out/ at dev and build time (vite.config.ts)
+/static/figures/
+
+# LaTeX build outputs
+/paper/tex/*.aux
+/paper/tex/*.log
+__pycache__/
+
+# Film production: renders, captures and frames are rebuilt by the scripts in video/
+/video/out/
+/video/node_modules/
+
+# Working files kept out of the public repository: agent settings, status notes, the film's production tree, build
+# outputs of the paper's LaTeX and arXiv packages, and review screenshots (the README's image is kept)
+/AGENTS.md
+/STATUS.md
+/.claude/
+/video/
+/paper/tex/
+/paper/arxiv/
+/docs/*
+!/docs/demo-desktop-answer.png

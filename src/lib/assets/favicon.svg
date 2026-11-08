@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Attention Is Only as Good as Its Witnesses">
+	<title>A two-step walk through a middle vertex; the pair it composes in rose</title>
+	<path d="M6 21 Q16 33 26 21" fill="none" stroke="#d6336c" stroke-width="2.6" stroke-linecap="round" />
+	<path d="M6 21 L16 8 L26 21" fill="none" stroke="#1f2a44" stroke-width="2" stroke-linejoin="round" />
+	<circle cx="6" cy="21" r="3.6" fill="#1f2a44" />
+	<circle cx="16" cy="8" r="3.2" fill="#ffffff" stroke="#1f2a44" stroke-width="2" />
+	<circle cx="26" cy="21" r="3.6" fill="#1f2a44" />
+</svg>

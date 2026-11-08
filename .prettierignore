@@ -1,0 +1,27 @@
+# Package Managers
+pnpm-lock.yaml
+
+# Miscellaneous
+/static/
+
+# Agent tooling
+/.claude/
+
+# the paper: prose and records are kept byte for byte as their authors write them; only its code is formatted
+/paper/**
+!/paper/**/*.ts
+
+# exported weights, examples and references, kept as exported
+src/lib/search/*.json
+
+# exported by the training code, kept byte for byte
+/test-data/
+
+# the film: its own production code and scripts, built and checked in video/
+/video/
+
+# the tutorial: written elsewhere and copied in byte for byte (scripts/sync-tutorial.mjs)
+/tutorial/
+
+# the research code release: Python, Lean and results, kept as written and exported
+/research/
