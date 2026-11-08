@@ -7,7 +7,8 @@
   <a href="https://neovand.github.io/witnesses/paper">Paper</a> ·
   <a href="https://neovand.github.io/witnesses/attention-witnesses.pdf">PDF</a> ·
   <a href="https://neovand.github.io/witnesses/demo">Demo</a> ·
-  <a href="https://neovand.github.io/witnesses/tutorial">Tutorial</a>
+  <a href="https://neovand.github.io/witnesses/tutorial">Tutorial</a> ·
+  <a href="https://youtu.be/3ITb16_glcg">Film</a>
 </p>
 
 <p align="center">

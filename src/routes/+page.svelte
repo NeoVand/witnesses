@@ -141,20 +141,13 @@
 		font-size: var(--text-sm);
 		color: var(--color-ink-soft);
 	}
+	/* rows of three, so no link sits alone on a row */
 	.links {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 8px 24px;
+		display: grid;
+		grid-template-columns: repeat(3, max-content);
+		gap: 12px 28px;
 		margin-top: 26px;
 		font-size: var(--text-ui);
-	}
-	/* on a phone, rows of three rather than a lone link on the last row */
-	@media (max-width: 560px) {
-		.links {
-			display: grid;
-			grid-template-columns: repeat(3, max-content);
-			gap: 12px 28px;
-		}
 	}
 	.links a {
 		color: var(--color-ink);

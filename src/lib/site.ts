@@ -13,7 +13,7 @@ export const PDF = 'attention-witnesses.pdf';
 export const TUTORIAL_PDF = 'attention-witnesses-tutorial.pdf';
 
 /** the film: set its URL and the Film link appears on the project page */
-export const FILM_URL: string | null = null;
+export const FILM_URL: string | null = 'https://youtu.be/3ITb16_glcg';
 
 /** the code: the Code links appear while this is set */
 export const CODE_URL: string | null = 'https://github.com/NeoVand/witnesses';
