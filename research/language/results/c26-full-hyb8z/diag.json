@@ -1,0 +1,61 @@
+{
+ "path": "results/c26-full-hyb8z/params_s0.npz",
+ "n": 512,
+ "accuracy_f32": 0.875,
+ "accuracy_bf16_emulated": 0.875,
+ "hybrid_stats": {
+  "2": {
+   "effective_pairs": 1629.3462829589844,
+   "top": 0.09319331590086222,
+   "cubic_over_resid": 0.16640175879001617,
+   "sa_over_resid": 0.4398699067533016,
+   "connected_over_raw": 1.0,
+   "interaction_relative": 1.0317460778686738
+  },
+  "5": {
+   "effective_pairs": 739.53759765625,
+   "top": 0.35370367020368576,
+   "cubic_over_resid": 0.207398796454072,
+   "sa_over_resid": 0.19888140819966793,
+   "connected_over_raw": 1.0,
+   "interaction_relative": 1.0317460394331388
+  }
+ },
+ "drop": {
+  "2_cubic": -0.001953125,
+  "2_sa": 0.095703125,
+  "2_both": 0.095703125,
+  "5_cubic": 0.00390625,
+  "5_sa": 0.005859375,
+  "5_both": 0.013671875,
+  "all_cubic": 0.001953125
+ },
+ "drop_sa_blocks": {
+  "0": 0.29296875,
+  "1": 0.11328125,
+  "3": 0.01171875,
+  "4": 0.015625,
+  "6": 0.005859375,
+  "7": 0.0078125
+ },
+ "bf16_relative_error_connected": {
+  "2": 0.003157026774715632,
+  "5": 0.003069325990509242
+ },
+ "pins": {
+  "count": 153,
+  "chance": 0.00048828125,
+  "by_layer": {
+   "2": {
+    "mean_weight": 0.007555005878517845,
+    "median_rank": 265.0,
+    "top1": 0.0196078431372549
+   },
+   "5": {
+    "mean_weight": 0.023100356099675517,
+    "median_rank": 493.0,
+    "top1": 0.0
+   }
+  }
+ }
+}

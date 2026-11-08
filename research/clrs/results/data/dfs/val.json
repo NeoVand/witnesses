@@ -1,0 +1,1 @@
+{"seed": 2, "num": 32, "length": 16, "task": "dfs", "split": "val", "sha256": "b2527ac731613e2776397c3d147ceeca6cfc2a9a5c1b978f256c307bbb776bb5", "shapes": {"n": [32], "pos": [32, 16], "A": [32, 16, 16], "adj": [32, 16, 16], "pi": [32, 16]}, "seconds": 7.8, "clrs_version": "2.0.3", "numpy": "2.5.4"}

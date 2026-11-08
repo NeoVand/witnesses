@@ -1,0 +1,48 @@
+{
+  "name": "Cobalt and Rose",
+  "ink": "#1F2A44",
+  "ink_soft": "#4C5B78",
+  "blue_grey": "#7D8BA8",
+  "blue_mist": "#BAC5D9",
+  "tint": "#F2F5FB",
+  "paper": "#FFFFFF",
+  "rose": "#D6336C",
+  "rose_light": "#F1A3BC",
+  "cobalt": "#2557A7",
+  "cobalt_light": "#9DB8E0",
+  "violet": "#7A5BA8",
+  "roles": {
+    "our_method": "rose",
+    "our_method_variant": "rose_light",
+    "strongest_alternative": "cobalt",
+    "alternative_variant": "cobalt_light",
+    "baselines": [
+      "ink_soft",
+      "blue_grey",
+      "blue_mist"
+    ],
+    "theory_prediction_or_reference": "violet",
+    "text_and_axes": "ink",
+    "training_band": "tint"
+  },
+  "colormaps": {
+    "density": "cr_density: white, pale blue, cobalt, deep indigo",
+    "exactness": "cr_exact: white, pale rose, rose, deep raspberry",
+    "diverging": "cr_div: cobalt, white, rose (centred)",
+    "rule": "every map is pure white at its zero end; no grey or black backgrounds"
+  },
+  "rules": [
+    "Rose is reserved for the method the paper argues for.",
+    "Cobalt marks the strongest alternative; at most one cobalt series per panel.",
+    "Baselines are blue-greys distinguished by dash pattern, never by hue.",
+    "Violet only for theory predictions and reference levels (thin dotted lines).",
+    "White backgrounds everywhere; the training band is a pale blue tint, not grey.",
+    "No default matplotlib colours, frames, legends, grids or titles; labels sit at line ends."
+  ],
+  "type": {
+    "family": "Helvetica Neue, Helvetica, Arial",
+    "tick_pt": 6,
+    "label_pt": 7,
+    "panel_letter_pt": 8
+  }
+}

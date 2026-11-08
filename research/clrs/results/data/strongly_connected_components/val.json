@@ -1,0 +1,1 @@
+{"seed": 2, "num": 32, "length": 16, "task": "strongly_connected_components", "split": "val", "sha256": "544c0997261b4725504e9d0e7ed0f02ca0d596d66d9321085d2940ba14cff7f7", "shapes": {"n": [32], "pos": [32, 16], "A": [32, 16, 16], "adj": [32, 16, 16], "scc_id": [32, 16]}, "seconds": 8.6, "clrs_version": "2.0.3", "numpy": "2.5.4"}

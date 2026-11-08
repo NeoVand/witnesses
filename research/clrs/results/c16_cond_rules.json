@@ -1,0 +1,74 @@
+{
+ "0": {
+  "heads": {
+   "0": {
+    "blind": 1107,
+    "parent_lower": 1853
+   },
+   "1": {
+    "blind": 1460,
+    "parent_lower": 1973
+   },
+   "2": {
+    "blind": 1704,
+    "parent_lower": 1990
+   },
+   "3": {
+    "blind": 880,
+    "parent_lower": 1822
+   }
+  },
+  "model_errors": 84,
+  "best_head": 2,
+  "errors_where_best_head_misorients": 54,
+  "misoriented_nodes_best_head": 58
+ },
+ "1": {
+  "heads": {
+   "0": {
+    "blind": 1784,
+    "parent_lower": 1998
+   },
+   "1": {
+    "blind": 1652,
+    "parent_lower": 1999
+   },
+   "2": {
+    "blind": 1098,
+    "parent_lower": 1922
+   },
+   "3": {
+    "blind": 1113,
+    "parent_lower": 1844
+   }
+  },
+  "model_errors": 54,
+  "best_head": 1,
+  "errors_where_best_head_misorients": 31,
+  "misoriented_nodes_best_head": 49
+ },
+ "2": {
+  "heads": {
+   "0": {
+    "blind": 1423,
+    "parent_lower": 1972
+   },
+   "1": {
+    "blind": 988,
+    "parent_lower": 1842
+   },
+   "2": {
+    "blind": 1775,
+    "parent_lower": 2001
+   },
+   "3": {
+    "blind": 1134,
+    "parent_lower": 1921
+   }
+  },
+  "model_errors": 56,
+  "best_head": 2,
+  "errors_where_best_head_misorients": 36,
+  "misoriented_nodes_best_head": 47
+ }
+}

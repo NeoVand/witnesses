@@ -1,0 +1,5 @@
+{"seed": 2, "examples": 128000, "loss": 1.198826789855957, "train_acc": 0.39453125, "sec": 26}
+{"seed": 2, "examples": 256000, "loss": 1.0150452852249146, "train_acc": 0.46875, "sec": 36}
+{"seed": 2, "examples": 384000, "loss": 0.7868826389312744, "train_acc": 0.5703125, "sec": 45}
+{"seed": 2, "examples": 512000, "loss": 0.03739931806921959, "train_acc": 1.0, "sec": 55}
+{"seed": 2, "examples": 640000, "loss": 0.022506553679704666, "train_acc": 1.0, "sec": 65}

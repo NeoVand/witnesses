@@ -1,0 +1,412 @@
+{
+ "_note": "OOD test micro-F1 (%) on CLRS-30, 64 nodes, read from the PDFs in research/prior_art/pdfs/clrs on 6 Nov 2026 (pdftotext -layout). Spread: stderr for ibarz/bevilacqua/rodionov, std dev for muller and floydnet.",
+ "ibarz2022_triplet_gmpnn_hints": {
+  "cite": "Ibarz et al. 2022, arXiv 2209.11142, Table 2 (10 seeds, stderr)",
+  "bfs": [
+   99.73,
+   0.04
+  ],
+  "bellman_ford": [
+   97.39,
+   0.19
+  ],
+  "dijkstra": [
+   96.05,
+   0.6
+  ],
+  "dag_shortest_paths": [
+   98.19,
+   0.3
+  ],
+  "floyd_warshall": [
+   48.52,
+   1.04
+  ],
+  "mst_prim": [
+   86.39,
+   1.33
+  ],
+  "topological_sort": [
+   87.27,
+   2.67
+  ],
+  "articulation_points": [
+   88.32,
+   2.01
+  ],
+  "bridges": [
+   93.99,
+   2.07
+  ],
+  "dfs": [
+   47.79,
+   4.19
+  ],
+  "mst_kruskal": [
+   89.8,
+   0.77
+  ],
+  "strongly_connected_components": [
+   43.43,
+   3.15
+  ]
+ },
+ "bevilacqua2023_no_hints": {
+  "cite": "Bevilacqua et al. 2023, arXiv 2302.10258, Table 3, 'No Hints' (stderr)",
+  "bfs": [
+   99.89,
+   0.03
+  ],
+  "bellman_ford": [
+   93.26,
+   0.04
+  ],
+  "dijkstra": [
+   95.01,
+   1.14
+  ],
+  "dag_shortest_paths": [
+   97.62,
+   0.62
+  ],
+  "floyd_warshall": [
+   40.8,
+   2.9
+  ],
+  "mst_prim": [
+   85.33,
+   1.21
+  ],
+  "topological_sort": [
+   84.29,
+   1.16
+  ],
+  "articulation_points": [
+   81.97,
+   5.08
+  ],
+  "bridges": [
+   95.62,
+   1.03
+  ],
+  "dfs": [
+   33.94,
+   2.57
+  ],
+  "strongly_connected_components": [
+   57.63,
+   0.68
+  ],
+  "mst_kruskal": [
+   92.28,
+   0.82
+  ]
+ },
+ "bevilacqua2023_hint_relic": {
+  "cite": "Bevilacqua et al. 2023, arXiv 2302.10258, Table 3, Hint-ReLIC (stderr)",
+  "bfs": [
+   99.0,
+   0.21
+  ],
+  "bellman_ford": [
+   95.54,
+   1.06
+  ],
+  "dijkstra": [
+   97.74,
+   0.5
+  ],
+  "dag_shortest_paths": [
+   98.17,
+   0.26
+  ],
+  "floyd_warshall": [
+   72.23,
+   4.84
+  ],
+  "mst_prim": [
+   87.97,
+   2.94
+  ],
+  "topological_sort": [
+   96.59,
+   0.2
+  ],
+  "articulation_points": [
+   98.45,
+   0.6
+  ],
+  "bridges": [
+   99.32,
+   0.09
+  ],
+  "dfs": [
+   null,
+   null
+  ],
+  "strongly_connected_components": [
+   76.79,
+   3.04
+  ],
+  "mst_kruskal": [
+   96.01,
+   0.45
+  ]
+ },
+ "rodionov2023_no_hint_ours": {
+  "cite": "Rodionov and Prokhorenkova 2023, arXiv 2306.13411, Table 2, 'No hint (ours)' (stderr)",
+  "bfs": [
+   99.95,
+   0.04
+  ],
+  "bellman_ford": [
+   95.25,
+   0.58
+  ],
+  "dijkstra": [
+   96.97,
+   0.32
+  ],
+  "dag_shortest_paths": [
+   98.18,
+   0.99
+  ],
+  "floyd_warshall": [
+   42.16,
+   2.14
+  ],
+  "mst_prim": [
+   85.7,
+   1.44
+  ],
+  "topological_sort": [
+   94.58,
+   0.6
+  ],
+  "articulation_points": [
+   94.55,
+   2.47
+  ],
+  "bridges": [
+   98.91,
+   0.47
+  ],
+  "dfs": [
+   34.52,
+   1.17
+  ],
+  "strongly_connected_components": [
+   66.38,
+   7.12
+  ],
+  "mst_kruskal": [
+   92.89,
+   0.92
+  ]
+ },
+ "muller2024_edge_transformer": {
+  "cite": "M\u00fcller et al. 2024, arXiv 2401.10119, Table 14, F1-score column (std dev); CLRS code base, setup of the Relational Transformer",
+  "bfs": [
+   99.77,
+   0.3
+  ],
+  "bellman_ford": [
+   89.96,
+   3.77
+  ],
+  "dijkstra": [
+   91.9,
+   2.99
+  ],
+  "dag_shortest_paths": [
+   97.63,
+   0.85
+  ],
+  "floyd_warshall": [
+   61.53,
+   5.34
+  ],
+  "mst_prim": [
+   93.02,
+   2.41
+  ],
+  "topological_sort": [
+   98.74,
+   2.24
+  ],
+  "articulation_points": [
+   93.06,
+   0.62
+  ],
+  "bridges": [
+   91.95,
+   10.0
+  ],
+  "dfs": [
+   65.6,
+   17.98
+  ],
+  "mst_kruskal": [
+   84.06,
+   2.14
+  ],
+  "strongly_connected_components": [
+   65.8,
+   8.13
+  ]
+ },
+ "muller2024_edge_transformer_ood_val": {
+  "cite": "M\u00fcller et al. 2024, arXiv 2401.10119, Table 14, F1-score (OOD) column: validation on 32-node graphs (Jung and Ahn)",
+  "bfs": [
+   99.95,
+   0.08
+  ],
+  "bellman_ford": [
+   95.55,
+   1.65
+  ],
+  "dijkstra": [
+   97.32,
+   7.32
+  ],
+  "dag_shortest_paths": [
+   98.43,
+   0.65
+  ],
+  "floyd_warshall": [
+   83.57,
+   1.79
+  ],
+  "mst_prim": [
+   93.0,
+   1.61
+  ],
+  "topological_sort": [
+   97.53,
+   2.31
+  ],
+  "articulation_points": [
+   95.47,
+   2.35
+  ],
+  "bridges": [
+   98.28,
+   2.64
+  ],
+  "dfs": [
+   57.76,
+   14.54
+  ],
+  "mst_kruskal": [
+   87.21,
+   1.45
+  ],
+  "strongly_connected_components": [
+   74.58,
+   5.31
+  ]
+ },
+ "floydnet_no_hint": {
+  "cite": "Yu et al., arXiv 2601.19094v3, Table 10, FloydNet_full 'No Hint' (online training, 32 to 80 layers)",
+  "bfs": [
+   100.0,
+   null
+  ],
+  "bellman_ford": [
+   100.0,
+   null
+  ],
+  "dijkstra": [
+   99.4,
+   null
+  ],
+  "dag_shortest_paths": [
+   100.0,
+   null
+  ],
+  "floyd_warshall": [
+   96.2,
+   null
+  ],
+  "mst_prim": [
+   99.65,
+   null
+  ],
+  "topological_sort": [
+   99.75,
+   null
+  ],
+  "dfs": [
+   75.1,
+   null
+  ],
+  "strongly_connected_components": [
+   90.07,
+   null
+  ],
+  "articulation_points": [
+   100.0,
+   null
+  ],
+  "bridges": [
+   100.0,
+   null
+  ],
+  "mst_kruskal": [
+   99.63,
+   null
+  ]
+ },
+ "floydnet_hint": {
+  "cite": "Yu et al., arXiv 2601.19094v3, Table 10, FloydNet_full 'With Hint' (8 layers); OOM (null) on SCC, Articulation Points, Bridges, MST-Kruskal",
+  "bfs": [
+   100.0,
+   null
+  ],
+  "bellman_ford": [
+   99.6,
+   null
+  ],
+  "dijkstra": [
+   97.67,
+   null
+  ],
+  "dag_shortest_paths": [
+   96.8,
+   null
+  ],
+  "floyd_warshall": [
+   64.2,
+   null
+  ],
+  "mst_prim": [
+   99.67,
+   null
+  ],
+  "topological_sort": [
+   100.0,
+   null
+  ],
+  "dfs": [
+   100.0,
+   null
+  ],
+  "strongly_connected_components": [
+   null,
+   null
+  ],
+  "articulation_points": [
+   null,
+   null
+  ],
+  "bridges": [
+   null,
+   null
+  ],
+  "mst_kruskal": [
+   null,
+   null
+  ]
+ },
+ "_note_c3": "C3 tasks (dfs, strongly_connected_components, articulation_points, bridges, mst_kruskal) read from the same tables on 6 Nov 2026 (the .txt files beside the PDFs, pdftotext -layout). null = not reported: Hint-ReLIC DFS is not in Bevilacqua Table 3's last column ('-'; their Baseline + reversal column gives 100.00); FloydNet With Hint is 'OOM' in Table 10 for SCC, Articulation Points, Bridges and MST-Kruskal."
+}

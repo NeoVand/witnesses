@@ -1,0 +1,1 @@
+{"seed": 20261109, "num": 128, "length": 64, "task": "floyd_warshall", "split": "fresh:20261109:128", "sha256": "560213b19647c4cdb3f1c0f8238721e154edc5b0b2f182f87fc80be28f87a302", "shapes": {"n": [128], "pos": [128, 64], "A": [128, 64, 64], "adj": [128, 64, 64], "Pi": [128, 64, 64]}, "seconds": 46.4, "clrs_version": "2.0.3", "numpy": "2.5.4"}

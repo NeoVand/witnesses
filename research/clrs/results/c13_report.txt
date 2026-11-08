@@ -1,0 +1,13 @@
+bfs                            FloydNet 100.00 | official 100.00 [100.0, 100.0, 100.0] matches | new 100.00 [100.0, 100.0, 100.0] matches | triangle 100.00 | s [2518, 2451, 2510] | params 186232
+bellman_ford                   FloydNet 100.00 | official  99.07 [99.12, 98.97, 99.12] below   | new  98.75 [98.8, 98.63, 98.8] below   | triangle  98.05 | s [2406, 2451, 2490] | params 186232
+dijkstra                       FloydNet  99.40 | official  98.91 [98.83, 98.73, 99.17] matches | new  98.90 [98.96, 98.82, 98.91] below   | triangle  98.18 | s [2525, 2492, 2478] | params 186232
+dag_shortest_paths             FloydNet 100.00 | official  99.80 [99.71, 99.9, 99.8] matches | new  99.75 [99.78, 99.77, 99.71] matches | triangle  99.24 | s [2413, 2415, 2442] | params 186232
+floyd_warshall                 FloydNet  96.20 | official  98.34 [97.77, 98.96, 98.29] beats   | new  98.25 [97.67, 98.89, 98.19] beats   | triangle  98.87 | s [2558, 2570, 2434] | params 186232
+mst_prim                       FloydNet  99.65 | official  97.57 [97.36, 98.68, 96.68] below   | new  97.47 [97.57, 98.03, 96.8] below   | triangle  89.01 | s [2496, 2452, 2455] | params 186232
+topological_sort               FloydNet  99.75 | official  99.93 [99.88, 99.95, 99.98] beats   | new  99.98 [99.99, 99.98, 99.96] beats   | triangle  99.49 | s [2424, 2517, 2525] | params 186232
+dfs                            FloydNet  75.10 | official  80.49 [82.13, 79.98, 79.35] beats   | new  80.35 [81.76, 79.27, 80.03] beats   | triangle  69.32 | s [2460, 2404, 2482] | params 186232
+strongly_connected_components  FloydNet  90.07 | official  87.87 [88.92, 87.99, 86.72] below   | new  85.68 [86.93, 85.1, 85.02] below   | triangle  86.51 | s [2476, 2486, 2492] | params 186232
+articulation_points            FloydNet 100.00 | official  99.80 [99.64, 99.76, 100.0] matches | new  99.90 [99.79, 99.91, 100.0] matches | triangle  98.00 | s [2464, 2436, 2492] | params 186361
+bridges                        FloydNet 100.00 | official 100.00 [100.0, 100.0, 100.0] matches | new 100.00 [100.0, 100.0, 100.0] matches | triangle  99.82 | s [2517, 2530, 2537] | params 186361
+mst_kruskal                    FloydNet  99.63 | official  99.44 [99.49, 99.41, 99.41] matches | new  99.56 [99.54, 99.53, 99.6] matches | triangle  98.45 | s [2549, 2459, 2548] | params 186361
+matches or beats (beats): {'official': '9 of 12 (3)', 'new': '8 of 12 (3)'}

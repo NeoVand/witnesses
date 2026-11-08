@@ -1,0 +1,1 @@
+{"id": "s10t-toep-v31-s1", "vertices": 31, "seed": 1, "toeplitz": true, "max_examples": 5242880, "timeout": 4000, "fn": "run_theirs"}

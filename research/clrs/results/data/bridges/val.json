@@ -1,0 +1,1 @@
+{"seed": 2, "num": 32, "length": 16, "task": "bridges", "split": "val", "sha256": "b8ed50374d722b9537728dd6f8e7932db830df0253035b9c2f6b0f5ea05b6af7", "shapes": {"n": [32], "pos": [32, 16], "A": [32, 16, 16], "adj": [32, 16, 16], "is_bridge": [32, 16, 16]}, "seconds": 8.4, "clrs_version": "2.0.3", "numpy": "2.5.4"}

@@ -1,0 +1,1 @@
+{"seed": 20261109, "num": 128, "length": 64, "task": "dijkstra", "split": "fresh:20261109:128", "sha256": "f21dbb9021c00bc2ba8391e655bc771c00cd213e3099466c24f8ed1a0e6d57dc", "shapes": {"n": [128], "pos": [128, 64], "A": [128, 64, 64], "adj": [128, 64, 64], "s": [128], "pi": [128, 64]}, "seconds": 11.7, "clrs_version": "2.0.3", "numpy": "2.5.4"}

@@ -1,0 +1,1 @@
+{"job": {"id": "s20-bench-h100", "script": "bench_layers.py", "sizes": [49, 100, 125, 250], "aggs": ["sum", "attn", "newton", "pmean"], "batch": 32, "reps": 20, "timeout": 5000}, "returncode": 0, "result": {"rows": 32}, "wall_seconds": 248.386919702}

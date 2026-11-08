@@ -1,0 +1,1 @@
+{"batch": 256, "warmup": 2000, "max_examples": 3000000, "check_every": 500, "test_every": 5000, "per_lookahead": 1000, "timeout": 13000, "id": "s14-pairn-long-v49-s2", "vertices": 49, "model": {"kind": "pairn", "emb": 32, "D": 16, "layers": 8, "r": 8}, "lr": 0.001, "seeds": [2], "stop_on_converge": false, "save": true}

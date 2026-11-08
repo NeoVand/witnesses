@@ -1,0 +1,434 @@
+[
+ {
+  "agg": "rate",
+  "n": 49,
+  "batch": 32,
+  "mode": "train",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 81469.98573553067,
+  "sec_per_step": 0.00039278268814086915,
+  "peak_bytes": 153183744,
+  "xla_bytes": {
+   "temp": 71363408,
+   "args": 5128256,
+   "out": 5228300
+  },
+  "compile_s": 4.6,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "rateK",
+  "n": 49,
+  "batch": 32,
+  "mode": "train",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 10931.607312295619,
+  "sec_per_step": 0.0029272913932800295,
+  "peak_bytes": 153183744,
+  "xla_bytes": {
+   "temp": 107225424,
+   "args": 5128256,
+   "out": 5228300
+  },
+  "compile_s": 6.4,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "propL",
+  "n": 49,
+  "batch": 32,
+  "mode": "train",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 39566.57272566476,
+  "sec_per_step": 0.0008087635040283203,
+  "peak_bytes": 153189632,
+  "xla_bytes": {
+   "temp": 72351328,
+   "args": 5126192,
+   "out": 5226252
+  },
+  "compile_s": 4.3,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "rate",
+  "n": 100,
+  "batch": 32,
+  "mode": "train",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 25858.591836931286,
+  "sec_per_step": 0.001237499713897705,
+  "peak_bytes": 366869248,
+  "xla_bytes": {
+   "temp": 291182928,
+   "args": 20899904,
+   "out": 20999948
+  },
+  "compile_s": 6.1,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "rateK",
+  "n": 100,
+  "batch": 32,
+  "mode": "train",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 2998.5283683189905,
+  "sec_per_step": 0.010671901702880859,
+  "peak_bytes": 625219840,
+  "xla_bytes": {
+   "temp": 458346320,
+   "args": 20899904,
+   "out": 20999948
+  },
+  "compile_s": 9.8,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "propL",
+  "n": 100,
+  "batch": 32,
+  "mode": "train",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 16398.81338122816,
+  "sec_per_step": 0.0019513607025146485,
+  "peak_bytes": 356797440,
+  "xla_bytes": {
+   "temp": 223338592,
+   "args": 20897840,
+   "out": 20997900
+  },
+  "compile_s": 5.9,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "rate",
+  "n": 125,
+  "batch": 32,
+  "mode": "train",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 15498.046026119187,
+  "sec_per_step": 0.0020647764205932615,
+  "peak_bytes": 636845312,
+  "xla_bytes": {
+   "temp": 531431248,
+   "args": 32522304,
+   "out": 32622348
+  },
+  "compile_s": 5.4,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "rateK",
+  "n": 125,
+  "batch": 32,
+  "mode": "train",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 1753.728179290448,
+  "sec_per_step": 0.018246841430664063,
+  "peak_bytes": 1249211648,
+  "xla_bytes": {
+   "temp": 1149237072,
+   "args": 32522304,
+   "out": 32622348
+  },
+  "compile_s": 7.3,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "propL",
+  "n": 125,
+  "batch": 32,
+  "mode": "train",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 10610.60034468038,
+  "sec_per_step": 0.0030158519744873046,
+  "peak_bytes": 485172480,
+  "xla_bytes": {
+   "temp": 385184864,
+   "args": 32520240,
+   "out": 32620300
+  },
+  "compile_s": 5.0,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "rate",
+  "n": 250,
+  "batch": 32,
+  "mode": "train",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 3935.645967668628,
+  "sec_per_step": 0.008130812644958496,
+  "peak_bytes": 2196142080,
+  "xla_bytes": {
+   "temp": 1798306128,
+   "args": 129034304,
+   "out": 129134348
+  },
+  "compile_s": 7.5,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "rateK",
+  "n": 250,
+  "batch": 32,
+  "mode": "train",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 395.75147613199607,
+  "sec_per_step": 0.08085882663726807,
+  "peak_bytes": 3357415424,
+  "xla_bytes": {
+   "temp": 2959579472,
+   "args": 129034304,
+   "out": 129134348
+  },
+  "compile_s": 9.4,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "propL",
+  "n": 250,
+  "batch": 32,
+  "mode": "train",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 2728.945529959539,
+  "sec_per_step": 0.011726140975952148,
+  "peak_bytes": 1744694272,
+  "xla_bytes": {
+   "temp": 1346845280,
+   "args": 129032240,
+   "out": 129132300
+  },
+  "compile_s": 7.8,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "rate",
+  "n": 49,
+  "batch": 32,
+  "mode": "infer",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 354932.5082639164,
+  "sec_per_step": 9.015798568725585e-05,
+  "peak_bytes": 112870400,
+  "xla_bytes": {
+   "temp": 30720000,
+   "args": 5128256,
+   "out": 5120000
+  },
+  "compile_s": 1.4,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "rateK",
+  "n": 49,
+  "batch": 32,
+  "mode": "infer",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 57039.896304795904,
+  "sec_per_step": 0.0005610108375549317,
+  "peak_bytes": 112870400,
+  "xla_bytes": {
+   "temp": 35843072,
+   "args": 5128256,
+   "out": 5120000
+  },
+  "compile_s": 1.7,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "propL",
+  "n": 49,
+  "batch": 32,
+  "mode": "infer",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 138261.88823074944,
+  "sec_per_step": 0.0002314448356628418,
+  "peak_bytes": 96091392,
+  "xla_bytes": {
+   "temp": 20480536,
+   "args": 5126192,
+   "out": 5120000
+  },
+  "compile_s": 1.1,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "rate",
+  "n": 100,
+  "batch": 32,
+  "mode": "infer",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 103911.83989470832,
+  "sec_per_step": 0.0003079533576965332,
+  "peak_bytes": 268557568,
+  "xla_bytes": {
+   "temp": 96229392,
+   "args": 20899904,
+   "out": 20891648
+  },
+  "compile_s": 1.9,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "rateK",
+  "n": 100,
+  "batch": 32,
+  "mode": "infer",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 12267.745939473709,
+  "sec_per_step": 0.002608466148376465,
+  "peak_bytes": 268557568,
+  "xla_bytes": {
+   "temp": 117123088,
+   "args": 20899904,
+   "out": 20891648
+  },
+  "compile_s": 2.2,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "propL",
+  "n": 100,
+  "batch": 32,
+  "mode": "infer",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 50375.41163886126,
+  "sec_per_step": 0.000635230541229248,
+  "peak_bytes": 222340608,
+  "xla_bytes": {
+   "temp": 83567128,
+   "args": 20897840,
+   "out": 20891648
+  },
+  "compile_s": 1.3,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "rate",
+  "n": 125,
+  "batch": 32,
+  "mode": "infer",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 63852.3920076118,
+  "sec_per_step": 0.0005011558532714844,
+  "peak_bytes": 302115328,
+  "xla_bytes": {
+   "temp": 130056192,
+   "args": 32522304,
+   "out": 32514048
+  },
+  "compile_s": 1.8,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "rateK",
+  "n": 125,
+  "batch": 32,
+  "mode": "infer",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 7548.824827966333,
+  "sec_per_step": 0.004239070415496826,
+  "peak_bytes": 368183552,
+  "xla_bytes": {
+   "temp": 162570240,
+   "args": 32522304,
+   "out": 32514048
+  },
+  "compile_s": 2.2,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "propL",
+  "n": 125,
+  "batch": 32,
+  "mode": "infer",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 34997.19120753044,
+  "sec_per_step": 0.0009143590927124023,
+  "peak_bytes": 267518976,
+  "xla_bytes": {
+   "temp": 130056728,
+   "args": 32520240,
+   "out": 32514048
+  },
+  "compile_s": 1.4,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "rate",
+  "n": 250,
+  "batch": 32,
+  "mode": "infer",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 14675.17991668398,
+  "sec_per_step": 0.0021805524826049804,
+  "peak_bytes": 1068691456,
+  "xla_bytes": {
+   "temp": 420632592,
+   "args": 129034304,
+   "out": 129026048
+  },
+  "compile_s": 2.0,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "rateK",
+  "n": 250,
+  "batch": 32,
+  "mode": "infer",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 1477.6431731883922,
+  "sec_per_step": 0.021656107902526856,
+  "peak_bytes": 1068691456,
+  "xla_bytes": {
+   "temp": 549660944,
+   "args": 129034304,
+   "out": 129026048
+  },
+  "compile_s": 2.4,
+  "device": "NVIDIA H100 80GB HBM3"
+ },
+ {
+  "agg": "propL",
+  "n": 250,
+  "batch": 32,
+  "mode": "infer",
+  "reps": 20,
+  "prop_layers": 1,
+  "examples_per_s": 8446.625760693765,
+  "sec_per_step": 0.0037884950637817384,
+  "peak_bytes": 956443136,
+  "xla_bytes": {
+   "temp": 516104728,
+   "args": 129032240,
+   "out": 129026048
+  },
+  "compile_s": 1.4,
+  "device": "NVIDIA H100 80GB HBM3"
+ }
+]

@@ -1,0 +1,196 @@
+{
+ "layer": [
+  {
+   "T": 8,
+   "beta": 1.0,
+   "clock_scale": 4.0,
+   "max_logit_diff": 1.6979480632617339e-07,
+   "logit_scale": 0.314959452340915,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 8,
+   "beta": 1.0,
+   "clock_scale": 32.0,
+   "max_logit_diff": 1.6311382761147186e-07,
+   "logit_scale": 0.3198814915661964,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 8,
+   "beta": 4.0,
+   "clock_scale": 4.0,
+   "max_logit_diff": 1.4277406401586035e-07,
+   "logit_scale": 0.3147926604858251,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 8,
+   "beta": 4.0,
+   "clock_scale": 32.0,
+   "max_logit_diff": 4.315361418399943e-06,
+   "logit_scale": 0.3309127887254684,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 8,
+   "beta": 8.0,
+   "clock_scale": 4.0,
+   "max_logit_diff": 2.4749970084503303e-07,
+   "logit_scale": 0.3147904442596681,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 8,
+   "beta": 8.0,
+   "clock_scale": 32.0,
+   "max_logit_diff": 1.8555607570858168e-05,
+   "logit_scale": 0.3310831157273771,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 16,
+   "beta": 1.0,
+   "clock_scale": 4.0,
+   "max_logit_diff": 1.8974024296181113e-07,
+   "logit_scale": 0.31323382769053637,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 16,
+   "beta": 1.0,
+   "clock_scale": 32.0,
+   "max_logit_diff": 1.755821882887254e-07,
+   "logit_scale": 0.30916587931126965,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 16,
+   "beta": 4.0,
+   "clock_scale": 4.0,
+   "max_logit_diff": 1.7158504400649477e-07,
+   "logit_scale": 0.3128606535294814,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 16,
+   "beta": 4.0,
+   "clock_scale": 32.0,
+   "max_logit_diff": 5.04799466644057e-07,
+   "logit_scale": 0.3102842100330372,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 16,
+   "beta": 8.0,
+   "clock_scale": 4.0,
+   "max_logit_diff": 1.8960522515931721e-07,
+   "logit_scale": 0.31285415579164244,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 16,
+   "beta": 8.0,
+   "clock_scale": 32.0,
+   "max_logit_diff": 5.469046310269121e-07,
+   "logit_scale": 0.3103475542192949,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 32,
+   "beta": 1.0,
+   "clock_scale": 4.0,
+   "max_logit_diff": 2.0810256706749186e-07,
+   "logit_scale": 0.3121012166278794,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 32,
+   "beta": 1.0,
+   "clock_scale": 32.0,
+   "max_logit_diff": 1.5873776544605978e-07,
+   "logit_scale": 0.3087147365783765,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 32,
+   "beta": 4.0,
+   "clock_scale": 4.0,
+   "max_logit_diff": 1.55657037426149e-07,
+   "logit_scale": 0.3113346977526232,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 32,
+   "beta": 4.0,
+   "clock_scale": 32.0,
+   "max_logit_diff": 1.585566820477835e-07,
+   "logit_scale": 0.30770896497779043,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 32,
+   "beta": 8.0,
+   "clock_scale": 4.0,
+   "max_logit_diff": 1.9524709904406023e-07,
+   "logit_scale": 0.31132204088747467,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 32,
+   "beta": 8.0,
+   "clock_scale": 32.0,
+   "max_logit_diff": 1.7474355087920834e-07,
+   "logit_scale": 0.3077267224913171,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 64,
+   "beta": 1.0,
+   "clock_scale": 4.0,
+   "max_logit_diff": 2.6109675754781847e-07,
+   "logit_scale": 0.4185955328451003,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 64,
+   "beta": 1.0,
+   "clock_scale": 32.0,
+   "max_logit_diff": 2.24237949875139e-07,
+   "logit_scale": 0.4169739610735765,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 64,
+   "beta": 4.0,
+   "clock_scale": 4.0,
+   "max_logit_diff": 2.3035585444697304e-07,
+   "logit_scale": 0.4185830527463624,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 64,
+   "beta": 4.0,
+   "clock_scale": 32.0,
+   "max_logit_diff": 1.7084557177304838e-07,
+   "logit_scale": 0.4136169715530873,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 64,
+   "beta": 8.0,
+   "clock_scale": 4.0,
+   "max_logit_diff": 1.5521753368719082e-07,
+   "logit_scale": 0.4185828232708885,
+   "argmax_agree": 1.0
+  },
+  {
+   "T": 64,
+   "beta": 8.0,
+   "clock_scale": 32.0,
+   "max_logit_diff": 1.7471018196046906e-07,
+   "logit_scale": 0.4135239001289468,
+   "argmax_agree": 1.0
+  }
+ ]
+}

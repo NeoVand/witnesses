@@ -1,0 +1,110 @@
+{
+ "test/s0/K8": {
+  "acc": 86.865234375,
+  "min_index": 98.75,
+  "dfs_fixed": 67.05729166666666,
+  "n_min": 1280,
+  "n_dfs": 768,
+  "wrong": 269,
+  "wrong_inside": 269
+ },
+ "test/s0/K34": {
+  "acc": 90.625,
+  "min_index": 98.75,
+  "dfs_fixed": 77.08333333333334,
+  "n_min": 1280,
+  "n_dfs": 768,
+  "wrong": 192,
+  "wrong_inside": 192
+ },
+ "fresh/s0/K8": {
+  "acc": 85.72998046875,
+  "min_index": 97.72364217252397,
+  "dfs_fixed": 66.86557788944724,
+  "n_min": 5008,
+  "n_dfs": 3184,
+  "wrong": 1169,
+  "wrong_inside": 1169
+ },
+ "fresh/s0/K34": {
+  "acc": 87.7197265625,
+  "min_index": 98.74201277955271,
+  "dfs_fixed": 70.38316582914574,
+  "n_min": 5008,
+  "n_dfs": 3184,
+  "wrong": 1006,
+  "wrong_inside": 1006
+ },
+ "test/s1/K8": {
+  "acc": 91.30859375,
+  "min_index": 98.984375,
+  "dfs_fixed": 78.515625,
+  "n_min": 1280,
+  "n_dfs": 768,
+  "wrong": 178,
+  "wrong_inside": 178
+ },
+ "test/s1/K34": {
+  "acc": 89.697265625,
+  "min_index": 98.75,
+  "dfs_fixed": 74.609375,
+  "n_min": 1280,
+  "n_dfs": 768,
+  "wrong": 211,
+  "wrong_inside": 211
+ },
+ "fresh/s1/K8": {
+  "acc": 85.85205078125,
+  "min_index": 98.10303514376997,
+  "dfs_fixed": 66.58291457286433,
+  "n_min": 5008,
+  "n_dfs": 3184,
+  "wrong": 1159,
+  "wrong_inside": 1159
+ },
+ "fresh/s1/K34": {
+  "acc": 86.48681640625,
+  "min_index": 98.56230031948881,
+  "dfs_fixed": 67.49371859296483,
+  "n_min": 5008,
+  "n_dfs": 3184,
+  "wrong": 1107,
+  "wrong_inside": 1107
+ },
+ "test/s2/K8": {
+  "acc": 85.9375,
+  "min_index": 98.75,
+  "dfs_fixed": 64.58333333333334,
+  "n_min": 1280,
+  "n_dfs": 768,
+  "wrong": 288,
+  "wrong_inside": 288
+ },
+ "test/s2/K34": {
+  "acc": 86.71875,
+  "min_index": 98.75,
+  "dfs_fixed": 66.66666666666666,
+  "n_min": 1280,
+  "n_dfs": 768,
+  "wrong": 272,
+  "wrong_inside": 272
+ },
+ "fresh/s2/K8": {
+  "acc": 84.5458984375,
+  "min_index": 98.30271565495208,
+  "dfs_fixed": 62.90829145728644,
+  "n_min": 5008,
+  "n_dfs": 3184,
+  "wrong": 1266,
+  "wrong_inside": 1266
+ },
+ "fresh/s2/K34": {
+  "acc": 85.29052734375,
+  "min_index": 98.06309904153355,
+  "dfs_fixed": 65.20100502512562,
+  "n_min": 5008,
+  "n_dfs": 3184,
+  "wrong": 1205,
+  "wrong_inside": 1205
+ }
+}

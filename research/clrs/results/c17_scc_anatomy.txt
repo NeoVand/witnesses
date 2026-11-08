@@ -1,0 +1,8 @@
+K=8
+strongly_connected_components seed 0 {"acc": 0.86865234375, "wrong_but_inside_true_scc": 1.0, "agree_with_min_index_rule": 0.625, "acc_where_rep_is_min_index": 0.9875, "acc_where_rep_is_not_min_index": 0.6705729166666666}
+strongly_connected_components seed 1 {"acc": 0.9130859375, "wrong_but_inside_true_scc": 1.0, "agree_with_min_index_rule": 0.62646484375, "acc_where_rep_is_min_index": 0.98984375, "acc_where_rep_is_not_min_index": 0.78515625}
+strongly_connected_components seed 2 {"acc": 0.859375, "wrong_but_inside_true_scc": 1.0, "agree_with_min_index_rule": 0.6328125, "acc_where_rep_is_min_index": 0.9875, "acc_where_rep_is_not_min_index": 0.6458333333333334}
+K=34
+strongly_connected_components seed 0 {"acc": 0.90625, "wrong_but_inside_true_scc": 1.0, "agree_with_min_index_rule": 0.625, "acc_where_rep_is_min_index": 0.9875, "acc_where_rep_is_not_min_index": 0.7708333333333334}
+strongly_connected_components seed 1 {"acc": 0.89697265625, "wrong_but_inside_true_scc": 1.0, "agree_with_min_index_rule": 0.625, "acc_where_rep_is_min_index": 0.9875, "acc_where_rep_is_not_min_index": 0.74609375}
+strongly_connected_components seed 2 {"acc": 0.8671875, "wrong_but_inside_true_scc": 1.0, "agree_with_min_index_rule": 0.6328125, "acc_where_rep_is_min_index": 0.9875, "acc_where_rep_is_not_min_index": 0.6666666666666666}

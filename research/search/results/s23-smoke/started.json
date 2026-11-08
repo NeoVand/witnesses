@@ -1,0 +1,1 @@
+{"batch": 256, "warmup": 2000, "max_examples": 153600, "check_every": 50, "test_every": 1000000000, "per_lookahead": 20, "timeout": 1500, "id": "s23-smoke", "vertices": 49, "model": {"kind": "sann", "emb": 32, "D": 16, "r": 8, "d": 64, "mlp": 128, "H": 4, "layers": 8, "pair_read": true}, "lr": 0.001, "seeds": [0], "save": false, "abort_nonfinite": true, "assert_smoke": true}

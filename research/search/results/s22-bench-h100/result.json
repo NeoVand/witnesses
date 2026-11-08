@@ -1,0 +1,1 @@
+{"job": {"id": "s22-bench-h100", "script": "bench_layers.py", "sizes": [49, 100, 125, 250], "aggs": ["rate", "rateK", "propL"], "prop_layers": 1, "batch": 32, "reps": 20, "gpu_exact": true, "timeout": 5000}, "returncode": 0, "result": {"rows": 24}, "wall_seconds": 303.09528425}

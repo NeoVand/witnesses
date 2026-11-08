@@ -1,0 +1,1 @@
+{"seed": 20261109, "num": 128, "length": 64, "task": "articulation_points", "split": "fresh:20261109:128", "sha256": "e593e2a75684b02802a9ebd5a60479b3b7164ca2ced0306180fde33992d4a985", "shapes": {"n": [128], "pos": [128, 64], "A": [128, 64, 64], "adj": [128, 64, 64], "is_cut": [128, 64]}, "seconds": 10.6, "clrs_version": "2.0.3", "numpy": "2.5.4"}

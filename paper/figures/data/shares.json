@@ -1,0 +1,546 @@
+{
+ "how": "Interaction shares of trained and untrained joins, recomputed from saved weights for Fig. 5c (CPU only).\n\nThe interaction share of a score over the partner pairs (j, k) a join scores is the part of its variance that is not a\nsum f(j) + g(k), divided by its value for independent random scores: (n - 1)^2 / (n^2 - 1) on the full grid (joins\nthat allow j = k, as chess joins beside attention), (n^2 - 3n + 1) / (n^2 - n - 1) on the off-diagonal pairs (SET\njoins and chess joins replacing attention, which score j != k only; additive part fitted by least squares). Sums of\nsquares are taken about each grid's own mean and pooled over positions or deals, heads and queries.\n- SET: every saved one-layer join of connected/results8 (7 files x 2 rates x 3 seeds = 42 fits), score\n  A(q, j, k) = sum_c Q(q)_c K1(j)_c K2(k)_c / sqrt(R) as in connected/mechanism.py, on 2,000 random deals of 8 table\n  cards, the card you hold drawn from all 81; and the same join at initialisation (connected/bench2.py init, seeds\n  0 to 2).\n- Chess: each join block of the saved chess models, on the first 512 validation positions of lab/results/c24-diag,\n  over the 64 x 64 grid of squares; the same configurations at initialisation (seeds 0 and 1).",
+ "set": [
+  {
+   "file": "connected/results8/q-m27a/params_0_c1.npz",
+   "m": 27,
+   "deals": 13824,
+   "rate_index": 0,
+   "seed": 0,
+   "share": 1.0094233195443574,
+   "share_full_grid": 1.0405055114201136
+  },
+  {
+   "file": "connected/results8/q-m27a/params_0_c1.npz",
+   "m": 27,
+   "deals": 13824,
+   "rate_index": 0,
+   "seed": 1,
+   "share": 0.9965397992333733,
+   "share_full_grid": 1.0321250643048967
+  },
+  {
+   "file": "connected/results8/q-m27a/params_0_c1.npz",
+   "m": 27,
+   "deals": 13824,
+   "rate_index": 0,
+   "seed": 2,
+   "share": 1.0051771002648124,
+   "share_full_grid": 1.0314625586782182
+  },
+  {
+   "file": "connected/results8/q-m27a/params_0_c1.npz",
+   "m": 27,
+   "deals": 13824,
+   "rate_index": 1,
+   "seed": 0,
+   "share": 1.003000268993977,
+   "share_full_grid": 1.038922471659524
+  },
+  {
+   "file": "connected/results8/q-m27a/params_0_c1.npz",
+   "m": 27,
+   "deals": 13824,
+   "rate_index": 1,
+   "seed": 1,
+   "share": 1.006167979630081,
+   "share_full_grid": 1.0449843406677246
+  },
+  {
+   "file": "connected/results8/q-m27a/params_0_c1.npz",
+   "m": 27,
+   "deals": 13824,
+   "rate_index": 1,
+   "seed": 2,
+   "share": 1.0076759662715602,
+   "share_full_grid": 1.044897437095642
+  },
+  {
+   "file": "connected/results8/q-m27a/params_3_c1.npz",
+   "m": 27,
+   "deals": 55296,
+   "rate_index": 0,
+   "seed": 0,
+   "share": 1.0011488956070258,
+   "share_full_grid": 1.0337453484535217
+  },
+  {
+   "file": "connected/results8/q-m27a/params_3_c1.npz",
+   "m": 27,
+   "deals": 55296,
+   "rate_index": 0,
+   "seed": 1,
+   "share": 1.002810147186883,
+   "share_full_grid": 1.0381290742329188
+  },
+  {
+   "file": "connected/results8/q-m27a/params_3_c1.npz",
+   "m": 27,
+   "deals": 55296,
+   "rate_index": 0,
+   "seed": 2,
+   "share": 1.0108696265572361,
+   "share_full_grid": 1.0381013325282504
+  },
+  {
+   "file": "connected/results8/q-m27a/params_3_c1.npz",
+   "m": 27,
+   "deals": 55296,
+   "rate_index": 1,
+   "seed": 0,
+   "share": 0.9928792080279206,
+   "share_full_grid": 1.0278085470199585
+  },
+  {
+   "file": "connected/results8/q-m27a/params_3_c1.npz",
+   "m": 27,
+   "deals": 55296,
+   "rate_index": 1,
+   "seed": 1,
+   "share": 1.0026968786308341,
+   "share_full_grid": 1.0315257055418832
+  },
+  {
+   "file": "connected/results8/q-m27a/params_3_c1.npz",
+   "m": 27,
+   "deals": 55296,
+   "rate_index": 1,
+   "seed": 2,
+   "share": 1.0001848094841432,
+   "share_full_grid": 1.0355781401906694
+  },
+  {
+   "file": "connected/results8/q-m27b/params_0_c1.npz",
+   "m": 27,
+   "deals": 221184,
+   "rate_index": 0,
+   "seed": 0,
+   "share": 1.0053544256215785,
+   "share_full_grid": 1.0458318420818873
+  },
+  {
+   "file": "connected/results8/q-m27b/params_0_c1.npz",
+   "m": 27,
+   "deals": 221184,
+   "rate_index": 0,
+   "seed": 1,
+   "share": 1.0118012880995104,
+   "share_full_grid": 1.049897917679378
+  },
+  {
+   "file": "connected/results8/q-m27b/params_0_c1.npz",
+   "m": 27,
+   "deals": 221184,
+   "rate_index": 0,
+   "seed": 2,
+   "share": 1.009278318017537,
+   "share_full_grid": 1.0437409452029636
+  },
+  {
+   "file": "connected/results8/q-m27b/params_0_c1.npz",
+   "m": 27,
+   "deals": 221184,
+   "rate_index": 1,
+   "seed": 0,
+   "share": 0.9859115569488801,
+   "share_full_grid": 1.0157661948885237
+  },
+  {
+   "file": "connected/results8/q-m27b/params_0_c1.npz",
+   "m": 27,
+   "deals": 221184,
+   "rate_index": 1,
+   "seed": 1,
+   "share": 1.003124707023728,
+   "share_full_grid": 1.034816699368613
+  },
+  {
+   "file": "connected/results8/q-m27b/params_0_c1.npz",
+   "m": 27,
+   "deals": 221184,
+   "rate_index": 1,
+   "seed": 2,
+   "share": 0.9977153804619006,
+   "share_full_grid": 1.023918194430215
+  },
+  {
+   "file": "connected/results8/q-m3/params_3_c1.npz",
+   "m": 3,
+   "deals": 6144,
+   "rate_index": 0,
+   "seed": 0,
+   "share": 0.9889340043988252,
+   "share_full_grid": 1.0039223262241908
+  },
+  {
+   "file": "connected/results8/q-m3/params_3_c1.npz",
+   "m": 3,
+   "deals": 6144,
+   "rate_index": 0,
+   "seed": 1,
+   "share": 0.9909354963029842,
+   "share_full_grid": 1.0038794875144958
+  },
+  {
+   "file": "connected/results8/q-m3/params_3_c1.npz",
+   "m": 3,
+   "deals": 6144,
+   "rate_index": 0,
+   "seed": 2,
+   "share": 0.9821252621857993,
+   "share_full_grid": 1.0254681280681064
+  },
+  {
+   "file": "connected/results8/q-m3/params_3_c1.npz",
+   "m": 3,
+   "deals": 6144,
+   "rate_index": 1,
+   "seed": 0,
+   "share": 0.9993354028245253,
+   "share_full_grid": 1.0215800745146615
+  },
+  {
+   "file": "connected/results8/q-m3/params_3_c1.npz",
+   "m": 3,
+   "deals": 6144,
+   "rate_index": 1,
+   "seed": 1,
+   "share": 1.0054136122460011,
+   "share_full_grid": 1.0248978904315402
+  },
+  {
+   "file": "connected/results8/q-m3/params_3_c1.npz",
+   "m": 3,
+   "deals": 6144,
+   "rate_index": 1,
+   "seed": 2,
+   "share": 1.003530668549177,
+   "share_full_grid": 1.0382651005472456
+  },
+  {
+   "file": "connected/results8/q-m81a/params_0_c1.npz",
+   "m": 81,
+   "deals": 41472,
+   "rate_index": 0,
+   "seed": 0,
+   "share": 1.0029118440337113,
+   "share_full_grid": 1.039754799434117
+  },
+  {
+   "file": "connected/results8/q-m81a/params_0_c1.npz",
+   "m": 81,
+   "deals": 41472,
+   "rate_index": 0,
+   "seed": 1,
+   "share": 1.0179104306598252,
+   "share_full_grid": 1.0487267885889326
+  },
+  {
+   "file": "connected/results8/q-m81a/params_0_c1.npz",
+   "m": 81,
+   "deals": 41472,
+   "rate_index": 0,
+   "seed": 2,
+   "share": 1.008062138634848,
+   "share_full_grid": 1.0419685414859226
+  },
+  {
+   "file": "connected/results8/q-m81a/params_0_c1.npz",
+   "m": 81,
+   "deals": 41472,
+   "rate_index": 1,
+   "seed": 0,
+   "share": 0.9962886936245949,
+   "share_full_grid": 1.0325827257973808
+  },
+  {
+   "file": "connected/results8/q-m81a/params_0_c1.npz",
+   "m": 81,
+   "deals": 41472,
+   "rate_index": 1,
+   "seed": 1,
+   "share": 1.0067364622320414,
+   "share_full_grid": 1.0381243995257785
+  },
+  {
+   "file": "connected/results8/q-m81a/params_0_c1.npz",
+   "m": 81,
+   "deals": 41472,
+   "rate_index": 1,
+   "seed": 2,
+   "share": 1.007118382995201,
+   "share_full_grid": 1.0445456845419747
+  },
+  {
+   "file": "connected/results8/q-m81b/params_0_c1.npz",
+   "m": 81,
+   "deals": 165888,
+   "rate_index": 0,
+   "seed": 0,
+   "share": 1.0098824028980593,
+   "share_full_grid": 1.0487753748893738
+  },
+  {
+   "file": "connected/results8/q-m81b/params_0_c1.npz",
+   "m": 81,
+   "deals": 165888,
+   "rate_index": 0,
+   "seed": 1,
+   "share": 1.0093092187055892,
+   "share_full_grid": 1.0467695423534937
+  },
+  {
+   "file": "connected/results8/q-m81b/params_0_c1.npz",
+   "m": 81,
+   "deals": 165888,
+   "rate_index": 0,
+   "seed": 2,
+   "share": 1.0081293764303425,
+   "share_full_grid": 1.048824267727988
+  },
+  {
+   "file": "connected/results8/q-m81b/params_0_c1.npz",
+   "m": 81,
+   "deals": 165888,
+   "rate_index": 1,
+   "seed": 0,
+   "share": 0.996965347059637,
+   "share_full_grid": 1.0322358778544833
+  },
+  {
+   "file": "connected/results8/q-m81b/params_0_c1.npz",
+   "m": 81,
+   "deals": 165888,
+   "rate_index": 1,
+   "seed": 1,
+   "share": 1.0023395666840649,
+   "share_full_grid": 1.0396155544689722
+  },
+  {
+   "file": "connected/results8/q-m81b/params_0_c1.npz",
+   "m": 81,
+   "deals": 165888,
+   "rate_index": 1,
+   "seed": 2,
+   "share": 1.00228558871475,
+   "share_full_grid": 1.0362877760614668
+  },
+  {
+   "file": "connected/results8/q-m9/params_3_c1.npz",
+   "m": 9,
+   "deals": 18432,
+   "rate_index": 0,
+   "seed": 0,
+   "share": 0.9946879622352629,
+   "share_full_grid": 1.0173113771847315
+  },
+  {
+   "file": "connected/results8/q-m9/params_3_c1.npz",
+   "m": 9,
+   "deals": 18432,
+   "rate_index": 0,
+   "seed": 1,
+   "share": 1.0000567253373585,
+   "share_full_grid": 1.0324368902615138
+  },
+  {
+   "file": "connected/results8/q-m9/params_3_c1.npz",
+   "m": 9,
+   "deals": 18432,
+   "rate_index": 0,
+   "seed": 2,
+   "share": 0.9931755498456547,
+   "share_full_grid": 1.0189981034823825
+  },
+  {
+   "file": "connected/results8/q-m9/params_3_c1.npz",
+   "m": 9,
+   "deals": 18432,
+   "rate_index": 1,
+   "seed": 0,
+   "share": 1.0106891409015344,
+   "share_full_grid": 1.0449125341006686
+  },
+  {
+   "file": "connected/results8/q-m9/params_3_c1.npz",
+   "m": 9,
+   "deals": 18432,
+   "rate_index": 1,
+   "seed": 1,
+   "share": 1.0087682305797743,
+   "share_full_grid": 1.0469438093049186
+  },
+  {
+   "file": "connected/results8/q-m9/params_3_c1.npz",
+   "m": 9,
+   "deals": 18432,
+   "rate_index": 1,
+   "seed": 2,
+   "share": 1.0038704015249598,
+   "share_full_grid": 1.0450621247291565
+  }
+ ],
+ "chess": [
+  {
+   "arm": "cub8",
+   "state": "trained",
+   "seed": 0,
+   "block": 2,
+   "params": "lab/results/c24-diag/params_cub8-s0.npz",
+   "share": 0.2468994421744294
+  },
+  {
+   "arm": "cub8",
+   "state": "trained",
+   "seed": 0,
+   "block": 5,
+   "params": "lab/results/c24-diag/params_cub8-s0.npz",
+   "share": 0.16845036660672105
+  },
+  {
+   "arm": "cub8",
+   "state": "init",
+   "seed": 0,
+   "block": 2,
+   "params": null,
+   "share": 0.04537507239701648
+  },
+  {
+   "arm": "cub8",
+   "state": "init",
+   "seed": 0,
+   "block": 5,
+   "params": null,
+   "share": 0.018245802451099476
+  },
+  {
+   "arm": "cub8",
+   "state": "init",
+   "seed": 1,
+   "block": 2,
+   "params": null,
+   "share": 0.06149009495058949
+  },
+  {
+   "arm": "cub8",
+   "state": "init",
+   "seed": 1,
+   "block": 5,
+   "params": null,
+   "share": 0.022571106281340104
+  },
+  {
+   "arm": "hyb8c",
+   "state": "trained",
+   "seed": 0,
+   "block": 2,
+   "params": "lab/results/c25-full-hyb8c/params_s0.npz",
+   "share": 0.18724241328434732
+  },
+  {
+   "arm": "hyb8c",
+   "state": "trained",
+   "seed": 0,
+   "block": 5,
+   "params": "lab/results/c25-full-hyb8c/params_s0.npz",
+   "share": 0.10973657067302246
+  },
+  {
+   "arm": "hyb8c",
+   "state": "init",
+   "seed": 0,
+   "block": 2,
+   "params": null,
+   "share": 0.06289456820718545
+  },
+  {
+   "arm": "hyb8c",
+   "state": "init",
+   "seed": 0,
+   "block": 5,
+   "params": null,
+   "share": 0.023912220661781794
+  },
+  {
+   "arm": "hyb8c",
+   "state": "init",
+   "seed": 1,
+   "block": 2,
+   "params": null,
+   "share": 0.0683142055829062
+  },
+  {
+   "arm": "hyb8c",
+   "state": "init",
+   "seed": 1,
+   "block": 5,
+   "params": null,
+   "share": 0.019943648206432026
+  },
+  {
+   "arm": "hyb8r",
+   "state": "trained",
+   "seed": 0,
+   "block": 2,
+   "params": "lab/results/c26-full-hyb8r/params_s0.npz",
+   "share": 0.29315080890210976
+  },
+  {
+   "arm": "hyb8r",
+   "state": "trained",
+   "seed": 0,
+   "block": 5,
+   "params": "lab/results/c26-full-hyb8r/params_s0.npz",
+   "share": 0.19097874756247854
+  },
+  {
+   "arm": "hyb8r",
+   "state": "init",
+   "seed": 0,
+   "block": 2,
+   "params": null,
+   "share": 0.06289456820718545
+  },
+  {
+   "arm": "hyb8r",
+   "state": "init",
+   "seed": 0,
+   "block": 5,
+   "params": null,
+   "share": 0.01973164078673304
+  },
+  {
+   "arm": "hyb8r",
+   "state": "init",
+   "seed": 1,
+   "block": 2,
+   "params": null,
+   "share": 0.0683142055829062
+  },
+  {
+   "arm": "hyb8r",
+   "state": "init",
+   "seed": 1,
+   "block": 5,
+   "params": null,
+   "share": 0.013374849801578713
+  }
+ ],
+ "set_init": [
+  {
+   "seed": 0,
+   "share": 0.48951712235809275,
+   "share_full_grid": 0.5023701233523232
+  },
+  {
+   "seed": 1,
+   "share": 0.6724757541547307,
+   "share_full_grid": 0.6942081110818046
+  },
+  {
+   "seed": 2,
+   "share": 0.5511510673924268,
+   "share_full_grid": 0.5484815878527505
+  }
+ ]
+}

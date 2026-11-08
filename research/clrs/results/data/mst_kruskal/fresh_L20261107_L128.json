@@ -1,0 +1,1 @@
+{"seed": 20261107, "num": 128, "length": 64, "task": "mst_kruskal", "split": "fresh:20261107:128", "sha256": "ae09905cfd8e79c51a715bb2cd4e8d83de742a21bce0a6c7ac6ae829e867c288", "shapes": {"n": [128], "pos": [128, 64], "A": [128, 64, 64], "adj": [128, 64, 64], "in_mst": [128, 64, 64]}, "seconds": 23.4, "clrs_version": "2.0.3", "numpy": "2.5.4"}

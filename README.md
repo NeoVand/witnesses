@@ -110,6 +110,13 @@ PLAYWRIGHT=/path/to/node_modules/playwright/index.mjs node scripts/shots.mjs   #
 PLAYWRIGHT=/path/to/node_modules/playwright/index.mjs node scripts/maps.mjs    # every question's map, in the browser
 ```
 
+## Reproducing the paper
+
+[`research/`](research/) holds the training code, the loader for the search benchmark's test sets, the Lean files and
+the results behind every figure and table; [`research/README.md`](research/README.md) maps each theorem, figure and
+table to its folder. The scripts that draw the paper's five figures, and the data they read, are in
+[`paper/figures/`](paper/figures/).
+
 ## Repository
 
 | Path              | What it holds                                                                          |
@@ -117,7 +124,8 @@ PLAYWRIGHT=/path/to/node_modules/playwright/index.mjs node scripts/maps.mjs    #
 | `src/routes/`     | the site: the project page, the paper (`paper/`), the tutorial, the demo (`demo/`)     |
 | `src/lib/search/` | the models' forward passes, the benchmark's input format, the maps and the demo panels |
 | `src/lib/paper/`  | the Markdown pipeline that renders the paper as HTML and LaTeX                         |
-| `paper/`          | the paper's source, its figures (`figures/out/`) and the LaTeX build                   |
+| `paper/`          | the paper's source, its figure scripts and figures (`figures/out/`), the LaTeX build   |
+| `research/`       | training code, benchmark loaders, Lean proofs and results for every figure and table   |
 | `tutorial/`       | the tutorial's source and its own figures                                              |
 | `static/`         | the exported models and questions, their maps, the paper's PDF and the social card     |
 

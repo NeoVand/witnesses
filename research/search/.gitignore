@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+l2s/
+results/*/params_*.npz.tmp
+out/

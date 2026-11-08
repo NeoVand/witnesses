@@ -1,0 +1,20 @@
+{
+ "test.npz off=0.0 eps=0.0001": {
+  "nodes": 2048,
+  "exact_tree_rule": 2048,
+  "exact_blind_rule": 2048,
+  "max_abs_phi_minus_depth": 0.8809,
+  "max_depth": 24,
+  "cond_median": 1560.0,
+  "cond_max": 3424.0
+ },
+ "test.npz off=0.001 eps=0.0001": {
+  "nodes": 2048,
+  "exact_tree_rule": 2043,
+  "exact_blind_rule": 1691,
+  "max_abs_phi_minus_depth": 14.059,
+  "max_depth": 24,
+  "cond_median": 1019.0,
+  "cond_max": 1902.0
+ }
+}

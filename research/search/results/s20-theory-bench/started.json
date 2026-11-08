@@ -1,0 +1,1 @@
+{"id": "s20-theory-bench", "script": "bench_layers.py", "fn": "run_cpu", "modes": [], "sizes": [], "aggs": [], "batch": 1, "theory_sizes": [[125, 8], [250, 4]], "timeout": 8000}

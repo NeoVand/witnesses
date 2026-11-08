@@ -1,0 +1,65 @@
+{
+ "8": {
+  "pairs": 28,
+  "threshold_in_sets": 0.11666666666666667,
+  "handset_mean_form_acc": 1.0,
+  "one_set_deals": 919,
+  "one_set_called_positive": 1.0,
+  "count_form_acc": 1.0,
+  "count_form_max_error": 3.014081812580116e-06
+ },
+ "16": {
+  "pairs": 120,
+  "threshold_in_sets": 0.5,
+  "handset_mean_form_acc": 1.0,
+  "one_set_deals": 434,
+  "one_set_called_positive": 1.0,
+  "count_form_acc": 1.0,
+  "count_form_max_error": 5.543231964111328e-06
+ },
+ "20": {
+  "pairs": 190,
+  "threshold_in_sets": 0.7916666666666666,
+  "handset_mean_form_acc": 1.0,
+  "one_set_deals": 193,
+  "one_set_called_positive": 1.0,
+  "count_form_acc": 1.0,
+  "count_form_max_error": 5.0067901611328125e-06
+ },
+ "22": {
+  "pairs": 231,
+  "threshold_in_sets": 0.9625,
+  "handset_mean_form_acc": 1.0,
+  "one_set_deals": 104,
+  "one_set_called_positive": 1.0,
+  "count_form_acc": 1.0,
+  "count_form_max_error": 7.1584440775041e-06
+ },
+ "23": {
+  "pairs": 253,
+  "threshold_in_sets": 1.0541666666666667,
+  "handset_mean_form_acc": 0.96337890625,
+  "one_set_deals": 75,
+  "one_set_called_positive": 0.0,
+  "count_form_acc": 1.0,
+  "count_form_max_error": 5.9604644775390625e-06
+ },
+ "24": {
+  "pairs": 276,
+  "threshold_in_sets": 1.15,
+  "handset_mean_form_acc": 0.974609375,
+  "one_set_deals": 52,
+  "one_set_called_positive": 0.0,
+  "count_form_acc": 1.0,
+  "count_form_max_error": 6.377696990966797e-06
+ },
+ "26": {
+  "pairs": 325,
+  "threshold_in_sets": 1.3541666666666667,
+  "handset_mean_form_acc": 0.986328125,
+  "one_set_deals": 28,
+  "one_set_called_positive": 0.0,
+  "count_form_acc": 1.0,
+  "count_form_max_error": 6.781684078305261e-06
+ }
+}

@@ -1,0 +1,478 @@
+{
+ "rows": {
+  "trivial-channel threshold (main)": {
+   "test (Fig. 5a, seed 20000)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0,
+    "max_count_error": 2.4382025003433228e-06,
+    "max_count": 3,
+    "positives": 512
+   },
+   "validation (seed 9200)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0,
+    "max_count_error": 2.4121254682540894e-06,
+    "max_count": 3,
+    "positives": 512
+   },
+   "fresh 100k (seed 31337)": {
+    "n": 100000,
+    "correct": 100000,
+    "accuracy": 1.0,
+    "max_count_error": 3.859400749206543e-06,
+    "max_count": 3,
+    "positives": 50000
+   },
+   "in8, m=27 (seed 20000)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0,
+    "max_count_error": 2.4382025003433228e-06,
+    "max_count": 3,
+    "positives": 512
+   },
+   "out8, held-out cards (seed 20001)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0,
+    "max_count_error": 2.682209014892578e-06,
+    "max_count": 2,
+    "positives": 512
+   },
+   "in16 (seed 20002)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0,
+    "max_count_error": 3.7997961044311523e-06,
+    "max_count": 5,
+    "positives": 512
+   },
+   "out16 (seed 20003)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0,
+    "max_count_error": 4.7497451305389404e-06,
+    "max_count": 5,
+    "positives": 512
+   },
+   "full8, all 81 cards (seed 20004)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0,
+    "max_count_error": 3.5762786865234375e-06,
+    "max_count": 3,
+    "positives": 512
+   }
+  },
+  "threshold in the output bias": {
+   "test (Fig. 5a, seed 20000)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0
+   },
+   "validation (seed 9200)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0
+   },
+   "fresh 100k (seed 31337)": {
+    "n": 100000,
+    "correct": 100000,
+    "accuracy": 1.0
+   },
+   "in8, m=27 (seed 20000)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0
+   },
+   "out8, held-out cards (seed 20001)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0
+   },
+   "in16 (seed 20002)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0
+   },
+   "out16 (seed 20003)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0
+   },
+   "full8, all 81 cards (seed 20004)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0
+   }
+  },
+  "no RMS normalisation": {
+   "test (Fig. 5a, seed 20000)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0
+   },
+   "validation (seed 9200)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0
+   },
+   "fresh 100k (seed 31337)": {
+    "n": 100000,
+    "correct": 100000,
+    "accuracy": 1.0
+   },
+   "in8, m=27 (seed 20000)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0
+   },
+   "out8, held-out cards (seed 20001)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0
+   },
+   "in16 (seed 20002)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0
+   },
+   "out16 (seed 20003)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0
+   },
+   "full8, all 81 cards (seed 20004)": {
+    "n": 1024,
+    "correct": 1024,
+    "accuracy": 1.0
+   }
+  }
+ },
+ "kappa": 10.0,
+ "eps": 0.004166666666666667,
+ "unit": 95,
+ "channels": {
+  "trivial": [
+   0
+  ],
+  "characters": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40
+  ],
+  "off": [
+   41,
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   49,
+   50,
+   51,
+   52,
+   53,
+   54,
+   55,
+   56,
+   57,
+   58,
+   59,
+   60,
+   61,
+   62,
+   63
+  ]
+ },
+ "representatives": [
+  [
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   1,
+   1,
+   0,
+   0
+  ],
+  [
+   2,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   0
+  ],
+  [
+   1,
+   0,
+   1,
+   0
+  ],
+  [
+   2,
+   0,
+   1,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   0
+  ],
+  [
+   1,
+   1,
+   1,
+   0
+  ],
+  [
+   2,
+   1,
+   1,
+   0
+  ],
+  [
+   0,
+   2,
+   1,
+   0
+  ],
+  [
+   1,
+   2,
+   1,
+   0
+  ],
+  [
+   2,
+   2,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   0,
+   1
+  ],
+  [
+   1,
+   0,
+   0,
+   1
+  ],
+  [
+   2,
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   1,
+   0,
+   1
+  ],
+  [
+   1,
+   1,
+   0,
+   1
+  ],
+  [
+   2,
+   1,
+   0,
+   1
+  ],
+  [
+   0,
+   2,
+   0,
+   1
+  ],
+  [
+   1,
+   2,
+   0,
+   1
+  ],
+  [
+   2,
+   2,
+   0,
+   1
+  ],
+  [
+   0,
+   0,
+   1,
+   1
+  ],
+  [
+   1,
+   0,
+   1,
+   1
+  ],
+  [
+   2,
+   0,
+   1,
+   1
+  ],
+  [
+   0,
+   1,
+   1,
+   1
+  ],
+  [
+   1,
+   1,
+   1,
+   1
+  ],
+  [
+   2,
+   1,
+   1,
+   1
+  ],
+  [
+   0,
+   2,
+   1,
+   1
+  ],
+  [
+   1,
+   2,
+   1,
+   1
+  ],
+  [
+   2,
+   2,
+   1,
+   1
+  ],
+  [
+   0,
+   0,
+   2,
+   1
+  ],
+  [
+   1,
+   0,
+   2,
+   1
+  ],
+  [
+   2,
+   0,
+   2,
+   1
+  ],
+  [
+   0,
+   1,
+   2,
+   1
+  ],
+  [
+   1,
+   1,
+   2,
+   1
+  ],
+  [
+   2,
+   1,
+   2,
+   1
+  ],
+  [
+   0,
+   2,
+   2,
+   1
+  ],
+  [
+   1,
+   2,
+   2,
+   1
+  ],
+  [
+   2,
+   2,
+   2,
+   1
+  ]
+ ],
+ "nonzero_weights": {
+  "input map": 12,
+  "phase map": 492,
+  "gate biases": 64,
+  "output map (arity-3 block, one unit)": 41,
+  "head": 2
+ }
+}

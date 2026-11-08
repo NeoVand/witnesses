@@ -1,0 +1,8 @@
+{
+ "vertices": 49,
+ "questions": 51200,
+ "first_step": 0.96001953125,
+ "with_choice": 0.96111328125,
+ "choice_at_first_step": 0.9961795606494747,
+ "choice_after_first_step": 0.00382043935052534
+}

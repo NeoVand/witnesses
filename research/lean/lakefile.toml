@@ -1,0 +1,32 @@
+name = "witnesses"
+defaultTargets = ["PairSearch", "Newton", "Framework", "Check"]
+
+[leanOptions]
+pp.unicode.fun = true
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.35.0"
+
+# Theorem 1(i), depth law: walks and the splitting lemma (Reach), the integer pair-state layers (Layer), the
+# real-valued layer of equation (pair) with explicit weights (Network), and the L-layer theorem (Sharp).
+[[lean_lib]]
+name = "PairSearch"
+roots = ["PairSearch.Reach", "PairSearch.Layer", "PairSearch.Network", "PairSearch.Sharp"]
+
+# Proposition 2: Newton attention counts zero-sum subsets through characters, and the precision it needs.
+[[lean_lib]]
+name = "Newton"
+roots = ["Newton.Characters", "Newton.Precision"]
+
+# Theorem 2, size law.
+[[lean_lib]]
+name = "Framework"
+roots = ["Framework.Gating"]
+
+# #check and #print axioms for every declaration the paper names.
+[[lean_lib]]
+name = "Check"
+roots = ["Check"]

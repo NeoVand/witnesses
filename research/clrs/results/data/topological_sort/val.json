@@ -1,0 +1,1 @@
+{"seed": 2, "num": 32, "length": 16, "task": "topological_sort", "split": "val", "sha256": "5215bb6f6f8358f70c54173d09bfc87db2859075384f582c7f25c7ae3654a396", "shapes": {"n": [32], "pos": [32, 16], "A": [32, 16, 16], "adj": [32, 16, 16], "topo": [32, 16], "topo_head": [32]}, "seconds": 4.1, "clrs_version": "2.0.3", "numpy": "2.5.4"}

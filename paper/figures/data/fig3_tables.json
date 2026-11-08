@@ -1,0 +1,192 @@
+{
+ "rows": [
+  {
+   "n": 8,
+   "pairs": 28,
+   "deals": 800,
+   "beta_rule": 2.683567793823433,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 1.0,
+   "exp_rule": 1.0,
+   "exp_fixed": 1.0
+  },
+  {
+   "n": 10,
+   "pairs": 45,
+   "deals": 800,
+   "beta_rule": 2.9998731135535097,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 1.0,
+   "exp_rule": 1.0,
+   "exp_fixed": 1.0
+  },
+  {
+   "n": 12,
+   "pairs": 66,
+   "deals": 800,
+   "beta_rule": 3.255201281724247,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 1.0,
+   "exp_rule": 1.0,
+   "exp_fixed": 1.0
+  },
+  {
+   "n": 14,
+   "pairs": 91,
+   "deals": 800,
+   "beta_rule": 3.46933779138453,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 1.0,
+   "exp_rule": 1.0,
+   "exp_fixed": 1.0
+  },
+  {
+   "n": 16,
+   "pairs": 120,
+   "deals": 800,
+   "beta_rule": 3.653759282227994,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 1.0,
+   "exp_rule": 1.0,
+   "exp_fixed": 1.0
+  },
+  {
+   "n": 18,
+   "pairs": 153,
+   "deals": 800,
+   "beta_rule": 3.815723401301587,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 1.0,
+   "exp_rule": 1.0,
+   "exp_fixed": 0.99875
+  },
+  {
+   "n": 20,
+   "pairs": 190,
+   "deals": 800,
+   "beta_rule": 3.9601141684802874,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 1.0,
+   "exp_rule": 1.0,
+   "exp_fixed": 0.99375
+  },
+  {
+   "n": 22,
+   "pairs": 231,
+   "deals": 800,
+   "beta_rule": 4.090376594054492,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 1.0,
+   "exp_rule": 1.0,
+   "exp_fixed": 0.92375
+  },
+  {
+   "n": 24,
+   "pairs": 276,
+   "deals": 800,
+   "beta_rule": 4.209032030851397,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 0.5,
+   "exp_rule": 1.0,
+   "exp_fixed": 0.6975
+  },
+  {
+   "n": 26,
+   "pairs": 325,
+   "deals": 800,
+   "beta_rule": 4.317981575259788,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 0.5,
+   "exp_rule": 1.0,
+   "exp_fixed": 0.535
+  },
+  {
+   "n": 28,
+   "pairs": 378,
+   "deals": 800,
+   "beta_rule": 4.418694250786356,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 0.5,
+   "exp_rule": 1.0,
+   "exp_fixed": 0.5025
+  },
+  {
+   "n": 30,
+   "pairs": 435,
+   "deals": 800,
+   "beta_rule": 4.512328807765753,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 0.5,
+   "exp_rule": 1.0,
+   "exp_fixed": 0.5
+  },
+  {
+   "n": 32,
+   "pairs": 496,
+   "deals": 800,
+   "beta_rule": 4.599815404856582,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 0.5,
+   "exp_rule": 1.0,
+   "exp_fixed": 0.5
+  },
+  {
+   "n": 34,
+   "pairs": 561,
+   "deals": 800,
+   "beta_rule": 4.681912057388427,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 0.5,
+   "exp_rule": 1.0,
+   "exp_fixed": 0.5
+  },
+  {
+   "n": 36,
+   "pairs": 630,
+   "deals": 800,
+   "beta_rule": 4.759244666630349,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 0.5,
+   "exp_rule": 1.0,
+   "exp_fixed": 0.5
+  },
+  {
+   "n": 38,
+   "pairs": 703,
+   "deals": 800,
+   "beta_rule": 4.832336048247074,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 0.5,
+   "exp_rule": 1.0,
+   "exp_fixed": 0.5
+  },
+  {
+   "n": 40,
+   "pairs": 780,
+   "deals": 800,
+   "beta_rule": 4.901627400162388,
+   "beta_fixed": 2.683567793823433,
+   "count": 1.0,
+   "mean": 0.5,
+   "exp_rule": 1.0,
+   "exp_fixed": 0.5
+  }
+ ],
+ "note": "hand-set layers on deals half without a set and half with exactly one"
+}

@@ -1,0 +1,23 @@
+{"seed": 2, "examples": 128000, "loss": 1.3355118036270142, "train_acc": 0.3671875, "iters": null, "sec": 34}
+{"seed": 2, "examples": 256000, "loss": 1.051546335220337, "train_acc": 0.4375, "iters": null, "sec": 40}
+{"seed": 2, "examples": 384000, "loss": 1.062042474746704, "train_acc": 0.4453125, "iters": null, "sec": 46}
+{"seed": 2, "examples": 512000, "loss": 1.0631929636001587, "train_acc": 0.43359375, "iters": null, "sec": 52}
+{"seed": 2, "examples": 640000, "loss": 1.0634803771972656, "train_acc": 0.4609375, "iters": null, "sec": 59}
+{"seed": 2, "examples": 768000, "loss": 0.039546046406030655, "train_acc": 0.99609375, "iters": null, "sec": 65}
+{"seed": 2, "examples": 896000, "loss": 0.02781648002564907, "train_acc": 1.0, "iters": null, "sec": 71}
+{"seed": 2, "examples": 1024000, "loss": 0.029517512768507004, "train_acc": 1.0, "iters": null, "sec": 77}
+{"seed": 2, "examples": 1152000, "loss": 0.02140672504901886, "train_acc": 1.0, "iters": null, "sec": 83}
+{"seed": 2, "examples": 1280000, "loss": 0.03636554628610611, "train_acc": 1.0, "iters": null, "sec": 90, "test": {"1": {"1": 1.0, "2": 1.0, "3": 1.0, "4": 1.0, "5": 1.0, "6": 1.0, "7": 1.0, "8": 1.0, "9": 1.0, "10": 1.0, "11": 1.0, "12": 1.0, "13": 1.0, "14": 1.0, "15": 1.0, "16": 1.0, "17": 1.0, "18": 1.0, "19": 1.0, "20": 1.0, "21": 1.0, "22": 1.0, "23": 1.0, "24": 1.0, "None": 0.989}}}
+{"seed": 2, "examples": 1408000, "loss": 0.02348265051841736, "train_acc": 1.0, "iters": null, "sec": 104}
+{"seed": 2, "examples": 1536000, "loss": 0.04083257168531418, "train_acc": 1.0, "iters": null, "sec": 110}
+{"seed": 2, "examples": 1664000, "loss": 0.029009085148572922, "train_acc": 1.0, "iters": null, "sec": 116}
+{"seed": 2, "examples": 1792000, "loss": 0.025143388658761978, "train_acc": 1.0, "iters": null, "sec": 122}
+{"seed": 2, "examples": 1920000, "loss": 0.018196159973740578, "train_acc": 1.0, "iters": null, "sec": 128}
+{"seed": 2, "examples": 2048000, "loss": 0.028290661051869392, "train_acc": 1.0, "iters": null, "sec": 134}
+{"seed": 2, "examples": 2176000, "loss": 0.030125129967927933, "train_acc": 1.0, "iters": null, "sec": 141}
+{"seed": 2, "examples": 2304000, "loss": 0.03695620596408844, "train_acc": 1.0, "iters": null, "sec": 146}
+{"seed": 2, "examples": 2432000, "loss": 0.026131391525268555, "train_acc": 1.0, "iters": null, "sec": 151}
+{"seed": 2, "examples": 2560000, "loss": 0.008224149234592915, "train_acc": 1.0, "iters": null, "sec": 157, "test": {"1": {"1": 1.0, "2": 1.0, "3": 1.0, "4": 1.0, "5": 1.0, "6": 1.0, "7": 1.0, "8": 1.0, "9": 1.0, "10": 1.0, "11": 1.0, "12": 1.0, "13": 1.0, "14": 1.0, "15": 1.0, "16": 1.0, "17": 1.0, "18": 1.0, "19": 1.0, "20": 1.0, "21": 1.0, "22": 1.0, "23": 1.0, "24": 1.0, "None": 0.996}}}
+{"seed": 2, "examples": 2688000, "loss": 0.031249457970261574, "train_acc": 1.0, "iters": null, "sec": 164}
+{"seed": 2, "examples": 2816000, "loss": 0.037196189165115356, "train_acc": 1.0, "iters": null, "sec": 170}
+{"seed": 2, "examples": 2944000, "loss": 0.02977534383535385, "train_acc": 1.0, "iters": null, "sec": 176}

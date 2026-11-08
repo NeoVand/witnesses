@@ -1,0 +1,1 @@
+{"seed": 2, "num": 32, "length": 16, "task": "dag_shortest_paths", "split": "val", "sha256": "3b0860a840d8eb57d65f18d733d0485739216491f058e173c8880fc9dc72cc45", "shapes": {"n": [32], "pos": [32, 16], "A": [32, 16, 16], "adj": [32, 16, 16], "s": [32], "pi": [32, 16]}, "seconds": 11.0, "clrs_version": "2.0.3", "numpy": "2.5.4"}
