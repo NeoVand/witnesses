@@ -25,7 +25,7 @@ const KEY = /<figure class="fig[^"]*" id="([\w-]+)">([\s\S]*?)<\/figure>/;
 const FOUND = [
 	{ key: 'Search', fig: 'fig-search', opens: ['One propagator layer'] },
 	{ key: 'SET', fig: 'fig-set', opens: ['Given the modulus'] },
-	{ key: 'The two laws', fig: 'fig-laws', opens: ['By the size law', 'By the depth law'] },
+	{ key: 'The two laws', fig: 'fig-laws', opens: ['The depth law is', 'We build a construction', 'The size law is'] },
 	{ key: 'CLRS-30 and elsewhere', fig: 'fig-map', opens: ['On CLRS-30'] }
 ];
 
